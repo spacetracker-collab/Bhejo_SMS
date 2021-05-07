@@ -1,0 +1,59 @@
+details:   http://hosted.office-on-the.net/biz/rev/7a62c9ef870a
+user:      Mr. Ramkumar Iyer <ramkumar.iyer@gmail.com>
+date:      Sun Feb 20 22:24:14 2011 +0000
+description:
+Checking in prototype code
+
+Repository Access: http://hosted.office-on-the.net/biz
+Repository log: http://hosted.office-on-the.net/hg/biz
+
+diffstat:
+
+ src/prototype/readme.txt                                          |    1 +
+ src/prototype/smsbhejo/.eric4project/smsbhejo.e4q                 |    7 +
+ src/prototype/smsbhejo/.eric4project/smsbhejo.e4t                 |   33 +
+ src/prototype/smsbhejo/.project                                   |   18 +
+ src/prototype/smsbhejo/.pydevproject                              |   12 +
+ src/prototype/smsbhejo/.settings/org.eclipse.core.resources.prefs |    3 +
+ src/prototype/smsbhejo/__init__.pyc                               |    0
+ src/prototype/smsbhejo/bhejosms/.models.py.swp                    |    0
+ src/prototype/smsbhejo/bhejosms/APIAlertService.py                |   21 +
+ src/prototype/smsbhejo/bhejosms/Alert.py                          |   23 +
+ src/prototype/smsbhejo/bhejosms/BhejoSettings.py                  |   18 +
+ src/prototype/smsbhejo/bhejosms/BhejoSettings.pyc                 |    0
+ src/prototype/smsbhejo/bhejosms/Client.py                         |   22 +
+ src/prototype/smsbhejo/bhejosms/Communications.py                 |  182 ++++++++++
+ src/prototype/smsbhejo/bhejosms/Communications.pyc                |    0
+ src/prototype/smsbhejo/bhejosms/EmailAttachmentParser.py          |  106 +++++
+ src/prototype/smsbhejo/bhejosms/EmailAttachmentParser.pyc         |    0
+ src/prototype/smsbhejo/bhejosms/EventExtractor.py                 |   53 ++
+ src/prototype/smsbhejo/bhejosms/EventExtractor.pyc                |    0
+ src/prototype/smsbhejo/bhejosms/PyGmail.py                        |  116 ++++++
+ src/prototype/smsbhejo/bhejosms/PyGmail.pyc                       |    0
+ src/prototype/smsbhejo/bhejosms/RESTAlertServiceImpl.py           |   27 +
+ src/prototype/smsbhejo/bhejosms/Resources.py                      |   95 +++++
+ src/prototype/smsbhejo/bhejosms/Sche1.py                          |  136 +++++++
+ src/prototype/smsbhejo/bhejosms/Scheduler.py                      |  109 +++++
+ src/prototype/smsbhejo/bhejosms/Serializer.py                     |   21 +
+ src/prototype/smsbhejo/bhejosms/Serializer.pyc                    |    0
+ src/prototype/smsbhejo/bhejosms/Storage.py                        |  165 +++++++++
+ src/prototype/smsbhejo/bhejosms/Storage.pyc                       |    0
+ src/prototype/smsbhejo/bhejosms/Template.py                       |   24 +
+ src/prototype/smsbhejo/bhejosms/__init__.py                       |    1 +
+ src/prototype/smsbhejo/bhejosms/__init__.pyc                      |    0
+ src/prototype/smsbhejo/bhejosms/admin.py                          |   11 +
+ src/prototype/smsbhejo/bhejosms/admin.pyc                         |    0
+ src/prototype/smsbhejo/bhejosms/b.sh                              |   13 +
+ src/prototype/smsbhejo/bhejosms/models.py                         |  113 ++++++
+ src/prototype/smsbhejo/bhejosms/models.pyc                        |    0
+ src/prototype/smsbhejo/bhejosms/tests.py                          |   23 +
+ src/prototype/smsbhejo/bhejosms/views.py                          |    1 +
+ src/prototype/smsbhejo/k.png                                      |    0
+ src/prototype/smsbhejo/l                                          |    1 +
+ src/prototype/smsbhejo/manage.py                                  |   11 +
+ src/prototype/smsbhejo/settings.py                                |   97 +++++
+ src/prototype/smsbhejo/settings.pyc                               |    0
+ src/prototype/smsbhejo/smsbhejo.e4p                               |   57 +++
+ src/prototype/smsbhejo/urls.py                                    |   16 +
+ src/prototype/smsbhejo/urls.pyc                                   |    0
+ 47 files changed, 1536 insertions(+), 0 deletions(-)
